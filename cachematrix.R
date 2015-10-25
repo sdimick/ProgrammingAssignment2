@@ -4,8 +4,8 @@
 ## ---------------------------------------------------------------
 
 ## 'makeCacheMatrix' transforms a matrix into 'special matrix', which
-## is really a list, that will store the inverse of a matrix once it
-## is solved with 'cacheSolve'
+## is really a list, that will stores function and objects that will be
+## used by the 'cacheSolve' function
 
 ## takes one argument, x, which is a matrix
 makeCacheMatrix <- function(x = matrix()) {
